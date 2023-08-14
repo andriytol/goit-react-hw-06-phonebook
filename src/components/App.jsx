@@ -1,9 +1,9 @@
-import { ToastContainer } from 'react-toastify'; // відображення сповіщень
-import 'react-toastify/dist/ReactToastify.css'; // стилі для сповіщень
+import { ToastContainer } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css'; 
 import { ContactForm } from './ContactForm/ContactForm';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
-import { MainHeader, SecondaryHeader, Section } from './App.styled'; // стилі для компонентів
+import { MainHeader, SecondaryHeader, Section } from './App.styled'; 
 
 export const App = () => {
   return (
@@ -15,9 +15,8 @@ export const App = () => {
       
       <Filter />
       <ContactList />
-      <ToastContainer position="top-center" /> {/* відображення сповіщень */}
+      <ToastContainer position="top-center" /> 
     </Section>
   );
 };
 
-// Діма Берестень
